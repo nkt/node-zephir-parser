@@ -1,0 +1,25 @@
+{
+  "name": "zephir-parser",
+  "version": "0.1.0",
+  "description": "Zephir parser bindings",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "install": "./install",
+    "build": "./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nkt/node-zephir-parser.git"
+  },
+  "keywords": [
+    "zephir",
+    "parser"
+  ],
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/node-zephir-parser/issues"
+  },
+  "homepage": "https://github.com/nkt/node-zephir-parser"
+}

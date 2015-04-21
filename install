@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -f parser/*.o parser/*.lo
+
+gcc -Wl,-rpath /usr/local/lib -I/usr/local/include -L/usr/local/lib -L/opt/local/lib -O2 -w parser/parser.c parser/scanner.c -ljson-c -o zephir-parser

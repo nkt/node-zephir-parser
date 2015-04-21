@@ -1,0 +1,9 @@
+node_modules/
+*.log
+parser/parser.c
+parser/parser.h
+parser/parser.out
+parser/scanner.c
+parser/lemon
+*.o
+zephir-parser

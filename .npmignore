@@ -1,0 +1,6 @@
+node_modules/
+build
+*.log
+parser/parser.out
+parser/scanner.c
+*.o

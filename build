@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ ! -f parser/lemon ]; then
+	gcc -O2 -w parser/lemon.c -o parser/lemon
+fi
+
+parser/lemon -s parser/parser.lemon
+cat parser/base.c >> parser/parser.c
+re2c -o parser/scanner.c parser/scanner.re
