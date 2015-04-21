@@ -1,5 +1,5 @@
 {
-  "name": "zephir-parser",
+  "name": "zephir",
   "version": "0.1.0",
   "description": "Zephir parser bindings",
   "main": "index.js",
