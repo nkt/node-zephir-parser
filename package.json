@@ -1,11 +1,11 @@
 {
   "name": "zephir",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Zephir parser bindings",
   "main": "index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "install": "./install",
+    "postinstall": "./install",
     "build": "./build"
   },
   "repository": {
