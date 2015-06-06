@@ -1,5 +1,7 @@
 #!/bin/sh
 
+git submodule update --init
+
 if [ ! -f parser/lemon ]; then
 	gcc -O2 -w parser/lemon.c -o parser/lemon
 fi
